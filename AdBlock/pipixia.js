@@ -9,7 +9,7 @@
 [rewrite_local]
 
 # ======= 去水印 ======= #
-^https?:\/\/.*\.(pipix|snssdk|ppxvod)\.com\/bds\/(feed\/stream|comment\/cell_reply|cell\/cell_comment|cell\/detail|ward\/list|user\/favorite|user\/cell_coment|user\/cell_userfeed|user\/publish_list) url script-response-body https://gist.githubusercontent.com/ddgksf2013/bb1dadbd32f67c68772caebcc70b0a33/raw/pipixia.adblock.js
+^https?:\/\/.*\.(pipix|snssdk|ppxvod)\.com\/bds\/(feed\/stream|comment\/cell_reply|cell\/cell_comment|cell\/detail|ward\/list|user\/favorite|user\/cell_coment|user\/cell_userfeed|user\/publish_list) url script-response-body https://raw.githubusercontent.com/Voilett/Rewrite/master/AdBlock/pipixia.js
 
 [mitm]
  
